@@ -178,7 +178,7 @@ if(tap=="multi") {
   
 //code
 var h="";
-var r=/(\'|Hay Nhất|Full|HD|Hay Nhất|kênh Phim Hoạt Hình Việt Nam|Mới Nhất 2017|Mới Nhất 2016|Cực Hay|Thuyết Minh|vietsub|Vietsub|Đặc Sắc|Full HD| 2017| POPS Kids| Kênh POPS Kids)/ig; //remove unuseful
+var r=/(\'|Hay Nhất|Full|HD|Hay Nhất|kênh Phim Hoạt Hình Việt Nam|www.youtube.com\/|Mới Nhất 2017|Mới Nhất 2016|Cực Hay|Thuyết Minh|vietsub|Vietsub|Đặc Sắc|Full HD| 2017| POPS Kids| Kênh POPS Kids)/ig; //remove unuseful
 for(i=0; i<q; i++) { 
 var dat = randomDate(ye,smonth,emonth);
 var tt = aa[i].title.replace(r,"");
