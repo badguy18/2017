@@ -243,7 +243,7 @@ code += " -<strong> ";
 code += tt; //title
 code += "<\/strong><\/div><div class=\"description\" >";
 code += dd; //descrition
-code += "<\/div><div class=\"hashtags\" >";
+code += "<\/div><div class=\"hashtags\" > Tags: ";
 code += ta.replace(/,/g,", ") +", #"+ htag; //tags
 code += "<\/div><br\/><!-- more --><div id=\"idkey\" >";
 if(tap=="multi") {code +=window.btoa(idstr);} else {code +=window.btoa("[id]1;" + aa[i].id + "[\/id]");}
