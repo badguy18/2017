@@ -1,4 +1,4 @@
-<script>
+
 var pat = /Subscribe|Playlist|link|Check us out on/ig;
 function convert_time(duration) {
     var a = duration.match(/\d+/g);
@@ -258,4 +258,3 @@ c.select();
 }
 
 function reset(){window.open(window.location.href,"_self");}
-</script>
